@@ -1,0 +1,1 @@
+ALTER TABLE Writers DROP COLUMN person_id ;

@@ -1,0 +1,5 @@
+ALTER TABLE Stars
+ADD COLUMN star_id INT;
+
+ALTER TABLE Stars
+ADD CONSTRAINT fk_star_id FOREIGN KEY (star_id) REFERENCES Persons (id);

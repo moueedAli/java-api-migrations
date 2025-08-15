@@ -1,0 +1,1 @@
+ALTER TABLE Writers DROP CONSTRAINT fk_writer_id;
