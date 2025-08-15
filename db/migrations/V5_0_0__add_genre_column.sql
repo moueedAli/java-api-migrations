@@ -1,0 +1,2 @@
+ALTER TABLE Films
+ADD COLUMN genre TEXT;
